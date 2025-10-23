@@ -3,7 +3,7 @@
 A decentralized event ticketing system using NFTs to represent event tickets. This repository contains Solidity smart contracts, deployment scripts, and frontend integration examples to mint, transfer, and validate ticket NFTs.
 
 ## Features
-- Mint NFT tickets (ERC-721)
+- Mint NFT ticket (ERC-721)
 - Per-ticket metadata stored on IPFS (event details, seat, date)
 - Transfer and revoke tickets
 - On-chain ownership and off-chain metadata
