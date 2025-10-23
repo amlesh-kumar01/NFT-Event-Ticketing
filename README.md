@@ -7,7 +7,7 @@ A decentralized event ticketing system using NFTs to represent event tickets. Th
 - Per-ticket metadata stored on IPFS (event details, seat, date)
 - Transfer and revoke tickets
 - On-chain ownership and off-chain metadata
-- Frontend examples for wallet connection and ticket actions
+
 
 ## Tech Stack
 - Solidity (ERC-721)
