@@ -17,7 +17,7 @@ async function main() {
   await contract.waitForDeployment();
   const address = await contract.getAddress();
 
-  console.log(`EventTicketing deployed at: ${address}`);
+  console.log(`EventTicketing is deployed at: ${address}`);
   console.log(`Awaiting ${CONFIRMATIONS} block confirmations...`);
   await contract.deploymentTransaction().wait(CONFIRMATIONS);
 
