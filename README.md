@@ -92,16 +92,3 @@ RPC_URL="https://polygon-mumbai.g.alchemy.com/v2/your-alchemy-key"
 PRIVATE_KEY="0xabc..."
 POLYGONSCAN_API_KEY="your-polygonscan-key"
 NFT_STORAGE_KEY="your-nft-storage-key"
-
-## Best Practices
-- Use test accounts and testnet before mainnet.
-- Do not commit private keys or secrets.
-- Pin metadata to ensure availability.
-- Add access controls for administrative functions if needed.
-
-## Troubleshooting
-- If gas errors occur, ensure the RPC and funds are correct.
-- For verification failures, match compiler version and settings.
-
-## License
-MIT
