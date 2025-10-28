@@ -1,15 +1,17 @@
 {
   "name": "NFT-Event-Ticketing",
   "version": "1.0.0",
-  "description": "",
+  "description": "A decentralized NFT-based event ticketing system built with Solidity and Hardhat",
   "main": "index.js",
   "scripts": {
     "test": "npx hardhat test",
     "compile": "npx hardhat compile",
-    "deploy": "npx hardhat run scripts/deploy.js --network coreTestnet"
+    "deploy": "npx hardhat run scripts/deploy.js --network coreTestnet",
+    "deploy:local": "npx hardhat run scripts/deploy.js --network localhost",
+    "node": "npx hardhat node"
   },
-  "keywords": [],
-  "author": "",
+  "keywords": ["nft", "tickets", "events", "blockchain", "ethereum", "erc721"],
+  "author": "amlesh-kumar01",
   "license": "MIT",
   "devDependencies": {
     "@nomicfoundation/hardhat-toolbox": "^2.0.2",
