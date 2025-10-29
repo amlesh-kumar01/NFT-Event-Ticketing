@@ -1,5 +1,5 @@
 {
-  "name": "NFT-Event-Ticketing",
+  "name": "nft-event-ticketing",
   "version": "1.0.0",
   "description": "A decentralized NFT-based event ticketing system built with Solidity and Hardhat",
   "main": "index.js",
