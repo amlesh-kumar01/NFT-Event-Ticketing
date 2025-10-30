@@ -191,4 +191,30 @@ contract EventTicketing is ERC721, AccessControl {
     function totalTickets() external view returns (uint256) {
         return _tokenIdCounter.current();
     }
+
+    /// @notice Get complete event details in a single call
+    function getEventDetails(uint256 eventId) external view returns (
+        string memory name,
+        string memory description,
+        uint256 price,
+        uint256 maxSupply,
+        uint256 minted,
+        bool active,
+        address organizer,
+        string memory baseURI
+    ) {
+        EventInfo storage e = events[eventId];
+        require(e.organizer != address(0), "Event: not found");
+        
+        return (
+            e.name,
+            e.description,
+            e.price,
+            e.maxSupply,
+            e.minted,
+            e.active,
+            e.organizer,
+            e.baseURI
+        );
+    }
 }
