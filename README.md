@@ -25,4 +25,6 @@ To create a decentralized, tamper-proof, and transparent event ticketing system 
 - Core Testnet 2 Blockchain
 
 
-## Contact Details
+## Contract Details
+0x5B2648cABECe6cB890ccE97C176172c9D88Ff191
+<img width="1788" height="761" alt="image" src="https://github.com/user-attachments/assets/6644f3ce-e03e-4fa6-b85b-d94b1118aa67" />
