@@ -6,7 +6,7 @@ require("@nomiclabs/hardhat-ethers");
 require("dotenv").config();
 
 module.exports = {
-  solidity: "0.8.17",
+  solidity: "0.8.20",
   networks: {
     coreTestnet: {
       url: "https://rpc.test2.btcs.network",
