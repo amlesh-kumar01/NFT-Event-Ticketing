@@ -23,3 +23,6 @@ To create a decentralized, tamper-proof, and transparent event ticketing system 
 - Hardhat (Development & Deployment)
 - OpenZeppelin (ERC-721 Standard)
 - Core Testnet 2 Blockchain
+
+
+## Contact Details
